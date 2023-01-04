@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Exerc_Entity_Scaffold.props" />
+</Project>

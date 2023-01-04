@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Exerc_Entity_Scaffold.props" />
+</Project>

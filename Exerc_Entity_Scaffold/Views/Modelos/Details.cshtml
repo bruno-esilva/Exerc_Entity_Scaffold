@@ -1,0 +1,26 @@
+﻿@model Exerc_Entity_Scaffold.Models.Modelo
+
+@{
+    ViewData["Title"] = "Detalhes do Modelo";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+    </dl>
+</div>
+<br/>
+ <div class="row">
+    <div class="col-md-2 form-group">
+        <a asp-action="Edit" asp-route-id="@Model?.Id"class="btn btn-primary">Editar</a>
+        <a asp-action="Index" class="btn btn-warning">Voltar</a>
+    </div>
+</div>
